@@ -1,0 +1,79 @@
+INSERT INTO Equipos VALUES(
+01, 'Jaen', 'Jaen', 'Juanito', SYSDATE);
+INSERT INTO Equipos VALUES(
+02, 'Betis','Andujar', 'Pepe', SYSDATE);
+INSERT INTO Equipos VALUES(
+03, 'Madri','villanueva', 'Amador', SYSDATE);
+INSERT INTO Equipos VALUES(
+04, 'grana','Jaen', 'Ramón', SYSDATE);
+
+
+INSERT INTO Jugadores VALUES(
+001,01,'Abraham');
+INSERT INTO Jugadores VALUES(
+002,01,'Juan');
+INSERT INTO Jugadores VALUES(
+003,01,'Amancio');
+INSERT INTO Jugadores VALUES(
+004,01,'Ortega');
+INSERT INTO Jugadores VALUES(
+005,01,'Benito');
+
+INSERT INTO Jugadores VALUES(
+006,02,'Moha');
+INSERT INTO Jugadores VALUES(
+007,02,'Pepe');
+INSERT INTO Jugadores VALUES(
+008,02,'Ainhoa');
+INSERT INTO Jugadores VALUES(
+009,02,'Ana');
+INSERT INTO Jugadores VALUES(
+010,02,'Driss');
+
+INSERT INTO Jugadores VALUES(
+011,03,'Ana');
+INSERT INTO Jugadores VALUES(
+012,03,'Maria');
+INSERT INTO Jugadores VALUES(
+013,03,'Pedro');
+INSERT INTO Jugadores VALUES(
+014,03,'Gonzalo');
+INSERT INTO Jugadores VALUES(
+015,03,'Messi');
+
+INSERT INTO Jugadores VALUES(
+016,04,'CR7');
+INSERT INTO Jugadores VALUES(
+017,04,'Pirlo');
+INSERT INTO Jugadores VALUES(
+018,04,'Adri');
+INSERT INTO Jugadores VALUES(
+019,04,'Raul');
+INSERT INTO Jugadores VALUES(
+020,04,'Puyol');
+
+INSERT INTO Encuentros VALUES(
+01,02,SYSDATE,3,0);
+INSERT INTO Encuentros VALUES(
+02,03,SYSDATE,1,1);
+INSERT INTO Encuentros VALUES(
+03,04,SYSDATE,3,0);
+INSERT INTO Encuentros VALUES(
+04,01,SYSDATE,3,0);
+INSERT INTO Encuentros VALUES(
+01,03,SYSDATE,3,0);
+INSERT INTO Encuentros VALUES(
+01,04,SYSDATE,3,0);
+INSERT INTO Encuentros VALUES(
+02,01,SYSDATE,0,3);
+INSERT INTO Encuentros VALUES(
+02,04,SYSDATE,3,0);
+INSERT INTO Encuentros VALUES(
+03,01,SYSDATE,1,1);
+INSERT INTO Encuentros VALUES(
+03,05,SYSDATE,3,0);
+
+
+
+
+
